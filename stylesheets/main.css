@@ -5171,7 +5171,8 @@ aside {
     text-align: center;
     background-color: #34495e; }
   aside .parteuno > h4 {
-    color: white; }
+    color: white;
+    background-color: transparent; }
   aside li {
     list-style: none;
     padding: 5px 0px; }
@@ -5236,15 +5237,93 @@ section {
 .top {
   padding-top: 52px; }
 
-.imagen {
-  width: 100%;
-  padding-bottom: 27px; }
-
 li > span {
   font-style: italic; }
 
 footer {
   background-color: #3498db;
   height: 38px; }
+
+.frase {
+  background-color: white;
+  position: relative;
+  width: auto;
+  text-align: center;
+  opacity: 0;
+  color: #ef895d;
+  font-size: 12px;
+  box-shadow: 2px 2px 3px #999; }
+
+.container-icon:hover .frase {
+  opacity: 1; }
+
+.container-icon:hover {
+  background-color: white; }
+
+.text-heart {
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 20%;
+  margin-top: 15%; }
+
+.separador {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid grey; }
+
+.container-img {
+  padding-top: 2%; }
+
+.container-img img {
+  width: 92%; }
+
+h4 {
+  background-color: #d2d2d2;
+  color: white;
+  padding: 5%;
+  margin: 0 8% 0 0%;
+  text-align: center; }
+
+.img-col4 {
+  padding-bottom: 5%;
+  padding: 30px; }
+
+.col-md-3 {
+  background-color: white; }
+
+.col-md-3 h4 {
+  padding: 15px;
+  background-color: #ef895d;
+  color: white;
+  margin: 0; }
+
+.list {
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  display: block;
+  padding: 10px 2px; }
+
+.icono-notificacion {
+  float: left;
+  color: #31b0d5;
+  padding: 6% 5% 6% 0; }
+
+.text-notificacion {
+  padding-top: 4%; }
+
+.list-group p span {
+  color: #31b0d5; }
+
+p {
+  margin: 0; }
+
+em {
+  margin-top: 2%; }
+
+.img-icono img {
+  width: 24%;
+  float: left;
+  padding: 0% 2% 0% 0%; }
 
 /*# sourceMappingURL=main.css.map */
