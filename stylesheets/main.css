@@ -5241,8 +5241,11 @@ li > span {
   font-style: italic; }
 
 footer {
-  background-color: #3498db;
+  background-color: #B2BEC7;
   height: 38px; }
+  footer p {
+    text-align: center;
+    padding: 9px; }
 
 .frase {
   background-color: white;
